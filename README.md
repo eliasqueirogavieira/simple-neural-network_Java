@@ -78,7 +78,7 @@ java WineTest
 ## Iris Flower Dataset
 The Iris Flower Dataset is a popular dataset used for machine learning and data analysis tasks. The dataset was introduced by the British statistician and biologist Ronald Fisher in his 1936 paper "The use of multiple measurements in taxonomic problems". The dataset consists of 150 samples from three species of Iris flowers (Iris setosa, Iris versicolor, and Iris virginica). Each sample has four features: sepal length, sepal width, petal length, and petal width, all measured in centimeters.
 
-Dataset Structure
+### Dataset Structure
 Each row of the dataset represents a sample with the following format:
 ```bash
 <sepal_length>,<sepal_width>,<petal_length>,<petal_width>,<species>
@@ -87,3 +87,40 @@ Example
 ```bash
 5.1,3.5,1.4,0.2,Iris-setosa
 ```
+
+## Wine Dataset
+The dataset provided consists of 178 instances and 14 attributes. The first attribute represents the class label, and the other 13 attributes represent different features.
+
+Mean values for each attribute:
+
+- Class Label: 1.9382022471910112
+- Attribute 1: 13.00061797752809
+- Attribute 2: 2.3363483146067416
+- Attribute 3: 2.3665168539325845
+- Attribute 4: 19.49494382022472
+- Attribute 5: 99.74157303370787
+- Attribute 6: 2.295112359550562
+- Attribute 7: 2.0292696629213487
+- Attribute 8: 0.36185393258426973
+- Attribute 9: 1.5908988764044945
+- Attribute 10: 5.058089882022472
+- Attribute 11: 0.9574494382022471
+- Attribute 12: 2.611685393258427
+- Attribute 13: 746.8932584269663
+
+Standard deviation for each attribute:
+
+- Class Label: 0.7750349891992925
+- Attribute 1: 0.8118265380053112
+- Attribute 2: 1.1171460972447395
+- Attribute 3: 0.2743440090608148
+- Attribute 4: 3.339563767173505
+- Attribute 5: 14.282483515295052
+- Attribute 6: 0.625851048833989
+- Attribute 7: 0.9988586858556095
+- Attribute 8: 0.1244533402966794
+- Attribute 9: 0.5723588626747619
+- Attribute 10: 2.3182858718224135
+- Attribute 11: 0.22857156582982322
+- Attribute 12: 0.7099904287650507
+- Attribute 13: 314.9074742768492
