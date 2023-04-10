@@ -74,3 +74,16 @@ java IrisTest
 javac WineTest.java
 java WineTest
 ```
+
+## Iris Flower Dataset
+The Iris Flower Dataset is a popular dataset used for machine learning and data analysis tasks. The dataset was introduced by the British statistician and biologist Ronald Fisher in his 1936 paper "The use of multiple measurements in taxonomic problems". The dataset consists of 150 samples from three species of Iris flowers (Iris setosa, Iris versicolor, and Iris virginica). Each sample has four features: sepal length, sepal width, petal length, and petal width, all measured in centimeters.
+
+Dataset Structure
+Each row of the dataset represents a sample with the following format:
+```bash
+<sepal_length>,<sepal_width>,<petal_length>,<petal_width>,<species>
+```
+Example
+```bash
+5.1,3.5,1.4,0.2,Iris-setosa
+```
